@@ -1,0 +1,54 @@
+//
+//  ViewController.m
+//  CoreAnimation系列
+//
+//  Created by iosyf-02 on 2018/1/15.
+//  Copyright © 2018年 情风. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "Demo_01_Layer.h"
+#import "Demo_02_Contents.h"
+#import "Demo_03_ContentsRect.h"
+#import "Demo_04_ContentsCenter.h"
+#import "Demo_05_DrawLayer.h"
+#import "Demo_06_AnchorPoint.h"
+#import "Demo_07_ZPosition.h"
+#import "Demo_08_ContainsPoint.h"
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.dataArray = [NSMutableArray arrayWithObjects:
+                      [Demo_01_Layer new],
+                      [Demo_02_Contents new],
+                      [Demo_03_ContentsRect new],
+                      [Demo_04_ContentsCenter new],
+                      [Demo_05_DrawLayer new],
+                      [Demo_06_AnchorPoint new],
+                      [Demo_07_ZPosition new],
+                      [Demo_08_ContainsPoint new],
+                      nil];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = NSStringFromClass([self.dataArray[indexPath.row] class]);
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.navigationController pushViewController:self.dataArray[indexPath.row] animated:YES];
+}
+@end

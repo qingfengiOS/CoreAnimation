@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoreAnimation&#x7cfb;&#x5217;/CoreAnimation/Demo_06_AnchorPoint.m"
-            timestampString = "537677149.0392129"
+            filePath = "CoreAnimation&#x7cfb;&#x5217;/CoreAnimation/Demo_10_Mask.m"
+            timestampString = "537702384.173718"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-viewWillDisappear:"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

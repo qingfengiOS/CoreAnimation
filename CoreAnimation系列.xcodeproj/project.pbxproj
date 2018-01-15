@@ -28,6 +28,11 @@
 		8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B235200C416C00F280A7 /* Demo_02_Contents.m */; };
 		8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */; };
 		8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */; };
+		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
+		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
+		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
+		85D59E89200CA90D007B8121 /* Demo_10_Mask.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */; };
+		85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +91,14 @@
 		8526B23A200C420D00F280A7 /* Demo_03_ContentsRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_03_ContentsRect.h; sourceTree = "<group>"; };
 		8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_03_ContentsRect.m; sourceTree = "<group>"; };
 		8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_03_ContentsRect.xib; sourceTree = "<group>"; };
+		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
+		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
+		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
+		85D59E85200CA90D007B8121 /* Demo_10_Mask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_10_Mask.h; sourceTree = "<group>"; };
+		85D59E86200CA90D007B8121 /* Demo_10_Mask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_10_Mask.m; sourceTree = "<group>"; };
+		85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_10_Mask.xib; sourceTree = "<group>"; };
+		85D59E8A200CABBE007B8121 /* Demo_11_ShouldRasterize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_11_ShouldRasterize.h; sourceTree = "<group>"; };
+		85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_11_ShouldRasterize.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +206,14 @@
 				851A7B89200C461E0028770E /* Demo_07_ZPosition.xib */,
 				851A7B8C200C46650028770E /* Demo_08_ContainsPoint.h */,
 				851A7B8D200C46650028770E /* Demo_08_ContainsPoint.m */,
+				85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */,
+				85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */,
+				85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */,
+				85D59E85200CA90D007B8121 /* Demo_10_Mask.h */,
+				85D59E86200CA90D007B8121 /* Demo_10_Mask.m */,
+				85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */,
+				85D59E8A200CABBE007B8121 /* Demo_11_ShouldRasterize.h */,
+				85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -303,12 +324,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D59E89200CA90D007B8121 /* Demo_10_Mask.xib in Resources */,
 				851A7B7B200C43F90028770E /* Demo_04_ContentsCenter.xib in Resources */,
 				8526B202200C396A00F280A7 /* LaunchScreen.storyboard in Resources */,
 				851A7B83200C45870028770E /* Demo_06_AnchorPoint.xib in Resources */,
 				8526B1FF200C396A00F280A7 /* Assets.xcassets in Resources */,
 				8526B1FD200C396A00F280A7 /* Main.storyboard in Resources */,
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
+				85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */,
 				851A7B8B200C461E0028770E /* Demo_07_ZPosition.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,9 +362,12 @@
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
+				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
+				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
+				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
 				8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */,
 				851A7B8E200C46650028770E /* Demo_08_ContainsPoint.m in Sources */,

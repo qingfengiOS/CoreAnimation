@@ -15,6 +15,9 @@
 #import "Demo_06_AnchorPoint.h"
 #import "Demo_07_ZPosition.h"
 #import "Demo_08_ContainsPoint.h"
+#import "Demo_09_ShadowPath.h"
+#import "Demo_10_Mask.h"
+#import "Demo_11_ShouldRasterize.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -35,6 +38,9 @@
                       [Demo_06_AnchorPoint new],
                       [Demo_07_ZPosition new],
                       [Demo_08_ContainsPoint new],
+                      [Demo_09_ShadowPath new],
+                      [Demo_10_Mask new],
+                      [Demo_11_ShouldRasterize new],
                       nil];
 }
 

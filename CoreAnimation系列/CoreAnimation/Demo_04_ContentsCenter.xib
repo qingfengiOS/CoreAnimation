@@ -35,7 +35,6 @@
                         <constraint firstAttribute="width" constant="100" id="2ui-Bh-Acj"/>
                         <constraint firstAttribute="height" constant="100" id="CS2-Kf-TKy"/>
                     </constraints>
-                    <state key="normal" image="loading_1"/>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,7 +47,4 @@
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
     </objects>
-    <resources>
-        <image name="loading_1" width="120" height="120"/>
-    </resources>
 </document>

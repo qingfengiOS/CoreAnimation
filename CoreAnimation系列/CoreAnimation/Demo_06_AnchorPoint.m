@@ -10,9 +10,12 @@
 
 @interface Demo_06_AnchorPoint ()
 @property (weak, nonatomic) IBOutlet UIImageView *clockView;
-@property (nonatomic,weak) CALayer * secondLayer;
-@property (nonatomic,weak) CALayer * mintueLayer;
-@property (nonatomic,weak) CALayer * hourLayer;
+@property (nonatomic,weak) CALayer *secondLayer;
+@property (nonatomic,weak) CALayer *mintueLayer;
+@property (nonatomic,weak) CALayer *hourLayer;
+
+@property (nonatomic,strong) NSTimer *timer;
+
 @end
 
 #define kClockW _clockView.bounds.size.width
@@ -41,8 +44,15 @@
     
     //添加定时器
     
-    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
     [self timeChange];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [_timer invalidate];
+    _timer = nil;
+    
 }
 
 - (void)timeChange {

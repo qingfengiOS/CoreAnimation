@@ -51,4 +51,5 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.navigationController pushViewController:self.dataArray[indexPath.row] animated:YES];
 }
+
 @end

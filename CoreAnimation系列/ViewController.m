@@ -19,8 +19,14 @@
 #import "Demo_10_Mask.h"
 #import "Demo_11_ShouldRasterize.h"
 #import "Demo_12_AffineTransform.h"
-#import "Demo_13_Mix_AffineTransform.h"
-#import "Demo_14_CATransform3D.h"
+#import "Demo_13_Mix_AffineTransform.h"//多次变换
+#import "Demo_14_CATransform3D.h"//3D变换
+#import "Demo_15_SublayerTransform.h"//“视距”相同
+#import "Demo_16_Mutable_Rotation.h"//内外部旋转叠加效果
+#import "Demo_17_Mutable_Rotation_3D.h"//图层扁平化
+#import "Demo_18_Cube.h"//创建一个立方体
+#import "Demo_19_CAShapeLayer.h"
+#import "Demo_20_CATextLayer.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -47,6 +53,12 @@
                       [Demo_12_AffineTransform new],
                       [Demo_13_Mix_AffineTransform new],
                       [Demo_14_CATransform3D new],
+                      [Demo_15_SublayerTransform new],
+                      [Demo_16_Mutable_Rotation new],
+                      [Demo_17_Mutable_Rotation_3D new],
+                      [Demo_18_Cube new],
+                      [Demo_19_CAShapeLayer new],
+                      [Demo_20_CATextLayer new],
                       nil];
 }
 

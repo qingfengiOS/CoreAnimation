@@ -22,9 +22,15 @@
     
     transform.m34 = -1.0 / 500.0f;
     
-    transform = CATransform3DRotate(transform, M_PI_4, 0, 1, 0);//绕Y转
+    transform = CATransform3DRotate(transform, M_PI, 0, 1, 0);//绕Y转180° 显示的就是背面了
+    
+    /*
+     CALayer有一个叫做doubleSided的属性来控制图层的背面是否要被绘制。这是一个BOOL类型，默认为YES，如果设置为NO,那么当图层正面从相机视角消失的时候，它将不会被绘制。
+     */
+    self.imageView.layer.doubleSided = YES;
     
     self.imageView.layer.transform = transform;
+
     /*
      看起来图层并没有被旋转，而是仅仅在水平方向上的一个压缩，是哪里出了问题呢？
      

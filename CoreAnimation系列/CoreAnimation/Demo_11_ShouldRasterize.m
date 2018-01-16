@@ -47,8 +47,7 @@
     
 }
 
-- (UIButton *)customButton
-{
+- (UIButton *)customButton {
     //create button
     CGRect frame = CGRectMake(0, 0, 150, 50);
     UIButton *button = [[UIButton alloc] initWithFrame:frame];

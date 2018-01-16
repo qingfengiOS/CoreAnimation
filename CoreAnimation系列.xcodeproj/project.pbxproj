@@ -28,6 +28,12 @@
 		8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B235200C416C00F280A7 /* Demo_02_Contents.m */; };
 		8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */; };
 		8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */; };
+		8546DD69200D923B00DA9BA3 /* Demo_12_AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD67200D923B00DA9BA3 /* Demo_12_AffineTransform.m */; };
+		8546DD6A200D923B00DA9BA3 /* Demo_12_AffineTransform.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD68200D923B00DA9BA3 /* Demo_12_AffineTransform.xib */; };
+		8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD6C200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m */; };
+		8546DD6F200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD6D200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.xib */; };
+		8546DD76200D993500DA9BA3 /* Demo_14_CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD74200D993500DA9BA3 /* Demo_14_CATransform3D.m */; };
+		8546DD77200D993500DA9BA3 /* Demo_14_CATransform3D.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD75200D993500DA9BA3 /* Demo_14_CATransform3D.xib */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
@@ -91,6 +97,15 @@
 		8526B23A200C420D00F280A7 /* Demo_03_ContentsRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_03_ContentsRect.h; sourceTree = "<group>"; };
 		8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_03_ContentsRect.m; sourceTree = "<group>"; };
 		8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_03_ContentsRect.xib; sourceTree = "<group>"; };
+		8546DD66200D923B00DA9BA3 /* Demo_12_AffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_12_AffineTransform.h; sourceTree = "<group>"; };
+		8546DD67200D923B00DA9BA3 /* Demo_12_AffineTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_12_AffineTransform.m; sourceTree = "<group>"; };
+		8546DD68200D923B00DA9BA3 /* Demo_12_AffineTransform.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_12_AffineTransform.xib; sourceTree = "<group>"; };
+		8546DD6B200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_13_Mix_AffineTransform.h; sourceTree = "<group>"; };
+		8546DD6C200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_13_Mix_AffineTransform.m; sourceTree = "<group>"; };
+		8546DD6D200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_13_Mix_AffineTransform.xib; sourceTree = "<group>"; };
+		8546DD73200D993500DA9BA3 /* Demo_14_CATransform3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_14_CATransform3D.h; sourceTree = "<group>"; };
+		8546DD74200D993500DA9BA3 /* Demo_14_CATransform3D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_14_CATransform3D.m; sourceTree = "<group>"; };
+		8546DD75200D993500DA9BA3 /* Demo_14_CATransform3D.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_14_CATransform3D.xib; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -214,6 +229,15 @@
 				85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */,
 				85D59E8A200CABBE007B8121 /* Demo_11_ShouldRasterize.h */,
 				85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */,
+				8546DD66200D923B00DA9BA3 /* Demo_12_AffineTransform.h */,
+				8546DD67200D923B00DA9BA3 /* Demo_12_AffineTransform.m */,
+				8546DD68200D923B00DA9BA3 /* Demo_12_AffineTransform.xib */,
+				8546DD6B200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.h */,
+				8546DD6C200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m */,
+				8546DD6D200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.xib */,
+				8546DD73200D993500DA9BA3 /* Demo_14_CATransform3D.h */,
+				8546DD74200D993500DA9BA3 /* Demo_14_CATransform3D.m */,
+				8546DD75200D993500DA9BA3 /* Demo_14_CATransform3D.xib */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -333,6 +357,9 @@
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
 				85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */,
 				851A7B8B200C461E0028770E /* Demo_07_ZPosition.xib in Resources */,
+				8546DD77200D993500DA9BA3 /* Demo_14_CATransform3D.xib in Resources */,
+				8546DD6A200D923B00DA9BA3 /* Demo_12_AffineTransform.xib in Resources */,
+				8546DD6F200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,13 +392,16 @@
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
+				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
+				8546DD76200D993500DA9BA3 /* Demo_14_CATransform3D.m in Sources */,
 				8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */,
 				851A7B8E200C46650028770E /* Demo_08_ContainsPoint.m in Sources */,
 				8526B22D200C3F7000F280A7 /* Demo_01_Layer.m in Sources */,
+				8546DD69200D923B00DA9BA3 /* Demo_12_AffineTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

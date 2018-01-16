@@ -18,6 +18,9 @@
 #import "Demo_09_ShadowPath.h"
 #import "Demo_10_Mask.h"
 #import "Demo_11_ShouldRasterize.h"
+#import "Demo_12_AffineTransform.h"
+#import "Demo_13_Mix_AffineTransform.h"
+#import "Demo_14_CATransform3D.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -41,6 +44,9 @@
                       [Demo_09_ShadowPath new],
                       [Demo_10_Mask new],
                       [Demo_11_ShouldRasterize new],
+                      [Demo_12_AffineTransform new],
+                      [Demo_13_Mix_AffineTransform new],
+                      [Demo_14_CATransform3D new],
                       nil];
 }
 

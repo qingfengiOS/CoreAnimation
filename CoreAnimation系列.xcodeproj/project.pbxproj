@@ -44,7 +44,7 @@
 		8546DD90200DAA4300DA9BA3 /* Demo_18_Cube.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD8E200DAA4300DA9BA3 /* Demo_18_Cube.xib */; };
 		8546DD93200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD92200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m */; };
 		8546DD96200DDE4000DA9BA3 /* Demo_20_CATextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */; };
-		8546DD9A200DDEB900DA9BA3 /* QFLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD99200DDEB900DA9BA3 /* QFLayerLabel.m */; };
+		855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855E420E200EED4D00A31C57 /* QFLayerLabel.m */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
@@ -133,8 +133,8 @@
 		8546DD92200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_19_CAShapeLayer.m; sourceTree = "<group>"; };
 		8546DD94200DDE4000DA9BA3 /* Demo_20_CATextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_20_CATextLayer.h; sourceTree = "<group>"; };
 		8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_20_CATextLayer.m; sourceTree = "<group>"; };
-		8546DD98200DDEB900DA9BA3 /* QFLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFLayerLabel.h; sourceTree = "<group>"; };
-		8546DD99200DDEB900DA9BA3 /* QFLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFLayerLabel.m; sourceTree = "<group>"; };
+		855E420D200EED4D00A31C57 /* QFLayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFLayerLabel.h; sourceTree = "<group>"; };
+		855E420E200EED4D00A31C57 /* QFLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFLayerLabel.m; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		8526B1F4200C396A00F280A7 /* CoreAnimation系列 */ = {
 			isa = PBXGroup;
 			children = (
-				8546DD97200DDEB900DA9BA3 /* QFLayerLabel */,
+				855E420C200EED3800A31C57 /* QFLayerLabel */,
 				8526B227200C39E200F280A7 /* CoreAnimation */,
 				8526B1F5200C396A00F280A7 /* AppDelegate.h */,
 				8526B1F6200C396A00F280A7 /* AppDelegate.m */,
@@ -288,11 +288,11 @@
 			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
-		8546DD97200DDEB900DA9BA3 /* QFLayerLabel */ = {
+		855E420C200EED3800A31C57 /* QFLayerLabel */ = {
 			isa = PBXGroup;
 			children = (
-				8546DD98200DDEB900DA9BA3 /* QFLayerLabel.h */,
-				8546DD99200DDEB900DA9BA3 /* QFLayerLabel.m */,
+				855E420D200EED4D00A31C57 /* QFLayerLabel.h */,
+				855E420E200EED4D00A31C57 /* QFLayerLabel.m */,
 			);
 			path = QFLayerLabel;
 			sourceTree = "<group>";
@@ -454,7 +454,7 @@
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
-				8546DD9A200DDEB900DA9BA3 /* QFLayerLabel.m in Sources */,
+				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,

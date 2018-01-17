@@ -70,7 +70,7 @@
 - (void)replaceLabel {
     QFLayerLabel *layerLabel = [[QFLayerLabel alloc]initWithFrame:CGRectMake(20, 550, 300, 80)];
     layerLabel.textColor = [UIColor darkGrayColor];
-    layerLabel.text = @"使用layerLabel替换Label,而CATextLayer使用了Core text，使用CATextLayer来实现展示文字,CATextLayer要比UILabel渲染得快得多。很少有人知道在iOS6及之前的版本,其实是通过WebKit来实现绘制的,这样就造成了当有很多文字的时候就会有极大的性能压力。而CATextLayer使用了Core text，并且渲染得非常快。(QFLayerLabel)";
+    layerLabel.text = @"使用QFLayerLabel替换Label,而CATextLayer使用了Core text，使用CATextLayer来实现展示文字,CATextLayer要比UILabel渲染得快得多。很少有人知道在iOS6及之前的版本,其实是通过WebKit来实现绘制的,这样就造成了当有很多文字的时候就会有极大的性能压力。而CATextLayer使用了Core text，并且渲染得非常快。(QFLayerLabel)";
     layerLabel.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:layerLabel];
 }

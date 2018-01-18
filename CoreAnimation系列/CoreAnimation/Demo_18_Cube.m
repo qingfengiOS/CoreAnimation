@@ -125,7 +125,7 @@
     UIColor *color = [UIColor colorWithWhite:0 alpha:shadow];
     layer.backgroundColor = color.CGColor;
 }
-#pragma mark - 拖拽装懂cube
+#pragma mark - 拖拽转动cube
 - (void)changeAngle:(UIPanGestureRecognizer *)sender{
     //返回视图拖动的像素
     CGPoint point =  [sender translationInView:_containerView];

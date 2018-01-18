@@ -27,6 +27,10 @@
 #import "Demo_18_Cube.h"//创建一个立方体
 #import "Demo_19_CAShapeLayer.h"
 #import "Demo_20_CATextLayer.h"
+#import "Demo_21_CATransformLayer.h"
+#import "Demo_22_CAGradientLayer.h"
+#import "Demo_23_CAReplicatorLayer.h"
+#import "Demo_24_CAEmitterLayer.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -59,6 +63,10 @@
                       [Demo_18_Cube new],
                       [Demo_19_CAShapeLayer new],
                       [Demo_20_CATextLayer new],
+                      [Demo_21_CATransformLayer new],
+                      [Demo_22_CAGradientLayer new],
+                      [Demo_23_CAReplicatorLayer new],
+                      [Demo_24_CAEmitterLayer new],
                       nil];
 }
 

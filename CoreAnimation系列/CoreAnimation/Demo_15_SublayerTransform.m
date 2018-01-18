@@ -41,7 +41,7 @@
      
      我们来用一个demo举例说明。这里用Interface Builder并排放置两个视图，然后通过设置它们容器视图的透视变换，我们可以保证它们有相同的透视和灭点。
      */
-    CATransform3D perspective =CATransform3DIdentity;
+    CATransform3D perspective = CATransform3DIdentity;
     perspective.m34 = -1 / 500.0f;
     self.containerView.layer.sublayerTransform = perspective;//简单地说：用于保证"视距"相同
     

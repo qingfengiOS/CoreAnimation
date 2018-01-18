@@ -44,7 +44,11 @@
 		8546DD90200DAA4300DA9BA3 /* Demo_18_Cube.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD8E200DAA4300DA9BA3 /* Demo_18_Cube.xib */; };
 		8546DD93200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD92200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m */; };
 		8546DD96200DDE4000DA9BA3 /* Demo_20_CATextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */; };
+		854DBAB42010991C0007E535 /* Demo_24_CAEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */; };
 		855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855E420E200EED4D00A31C57 /* QFLayerLabel.m */; };
+		857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */; };
+		857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */; };
+		857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
@@ -133,8 +137,16 @@
 		8546DD92200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_19_CAShapeLayer.m; sourceTree = "<group>"; };
 		8546DD94200DDE4000DA9BA3 /* Demo_20_CATextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_20_CATextLayer.h; sourceTree = "<group>"; };
 		8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_20_CATextLayer.m; sourceTree = "<group>"; };
+		854DBAB22010991C0007E535 /* Demo_24_CAEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_24_CAEmitterLayer.h; sourceTree = "<group>"; };
+		854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_24_CAEmitterLayer.m; sourceTree = "<group>"; };
 		855E420D200EED4D00A31C57 /* QFLayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFLayerLabel.h; sourceTree = "<group>"; };
 		855E420E200EED4D00A31C57 /* QFLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFLayerLabel.m; sourceTree = "<group>"; };
+		857117DC20108768003C5D6F /* Demo_21_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_21_CATransformLayer.h; sourceTree = "<group>"; };
+		857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_21_CATransformLayer.m; sourceTree = "<group>"; };
+		857117E520108A40003C5D6F /* Demo_22_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_22_CAGradientLayer.h; sourceTree = "<group>"; };
+		857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_22_CAGradientLayer.m; sourceTree = "<group>"; };
+		857117E820108FCA003C5D6F /* Demo_23_CAReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_23_CAReplicatorLayer.h; sourceTree = "<group>"; };
+		857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_23_CAReplicatorLayer.m; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -284,6 +296,14 @@
 				8546DD92200DDCBB00DA9BA3 /* Demo_19_CAShapeLayer.m */,
 				8546DD94200DDE4000DA9BA3 /* Demo_20_CATextLayer.h */,
 				8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */,
+				857117DC20108768003C5D6F /* Demo_21_CATransformLayer.h */,
+				857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */,
+				857117E520108A40003C5D6F /* Demo_22_CAGradientLayer.h */,
+				857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */,
+				857117E820108FCA003C5D6F /* Demo_23_CAReplicatorLayer.h */,
+				857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */,
+				854DBAB22010991C0007E535 /* Demo_24_CAEmitterLayer.h */,
+				854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -445,22 +465,26 @@
 			files = (
 				851A7B8A200C461E0028770E /* Demo_07_ZPosition.m in Sources */,
 				8526B1FA200C396A00F280A7 /* ViewController.m in Sources */,
+				857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */,
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
+				854DBAB42010991C0007E535 /* Demo_24_CAEmitterLayer.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
+				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
 				8546DD76200D993500DA9BA3 /* Demo_14_CATransform3D.m in Sources */,
 				8546DD8F200DAA4300DA9BA3 /* Demo_18_Cube.m in Sources */,
+				857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */,
 				8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */,
 				8546DD80200DA4E300DA9BA3 /* Demo_16_Mutable_Rotation.m in Sources */,
 				8546DD96200DDE4000DA9BA3 /* Demo_20_CATextLayer.m in Sources */,

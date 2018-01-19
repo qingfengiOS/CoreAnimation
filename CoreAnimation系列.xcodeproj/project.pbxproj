@@ -49,6 +49,12 @@
 		857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */; };
 		857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */; };
 		857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */; };
+		85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7E72011907B003547E1 /* Demo_25_CAEAGLLayer.m */; };
+		85A5C7EB201190CF003547E1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5C7EA201190CF003547E1 /* OpenGLES.framework */; };
+		85A5C7ED201190D9003547E1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5C7EC201190D9003547E1 /* GLKit.framework */; };
+		85A5C7F020119EAC003547E1 /* Demo_26_IntentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7EF20119EAC003547E1 /* Demo_26_IntentAnimation.m */; };
+		85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7F22011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m */; };
+		85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
@@ -147,6 +153,16 @@
 		857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_22_CAGradientLayer.m; sourceTree = "<group>"; };
 		857117E820108FCA003C5D6F /* Demo_23_CAReplicatorLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_23_CAReplicatorLayer.h; sourceTree = "<group>"; };
 		857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_23_CAReplicatorLayer.m; sourceTree = "<group>"; };
+		85A5C7E62011907B003547E1 /* Demo_25_CAEAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_25_CAEAGLLayer.h; sourceTree = "<group>"; };
+		85A5C7E72011907B003547E1 /* Demo_25_CAEAGLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_25_CAEAGLLayer.m; sourceTree = "<group>"; };
+		85A5C7EA201190CF003547E1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		85A5C7EC201190D9003547E1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		85A5C7EE20119EAB003547E1 /* Demo_26_IntentAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_26_IntentAnimation.h; sourceTree = "<group>"; };
+		85A5C7EF20119EAC003547E1 /* Demo_26_IntentAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_26_IntentAnimation.m; sourceTree = "<group>"; };
+		85A5C7F12011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_27_IntentAnimation_Principle.h; sourceTree = "<group>"; };
+		85A5C7F22011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_27_IntentAnimation_Principle.m; sourceTree = "<group>"; };
+		85A5C7F42011F6A4003547E1 /* Demo_28_PresentationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_28_PresentationLayer.h; sourceTree = "<group>"; };
+		85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_28_PresentationLayer.m; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -162,6 +178,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A5C7ED201190D9003547E1 /* GLKit.framework in Frameworks */,
+				85A5C7EB201190CF003547E1 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +207,7 @@
 				8526B20D200C396A00F280A7 /* CoreAnimation系列Tests */,
 				8526B218200C396A00F280A7 /* CoreAnimation系列UITests */,
 				8526B1F3200C396A00F280A7 /* Products */,
+				85A5C7E9201190CE003547E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,6 +323,14 @@
 				857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */,
 				854DBAB22010991C0007E535 /* Demo_24_CAEmitterLayer.h */,
 				854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */,
+				85A5C7E62011907B003547E1 /* Demo_25_CAEAGLLayer.h */,
+				85A5C7E72011907B003547E1 /* Demo_25_CAEAGLLayer.m */,
+				85A5C7EE20119EAB003547E1 /* Demo_26_IntentAnimation.h */,
+				85A5C7EF20119EAC003547E1 /* Demo_26_IntentAnimation.m */,
+				85A5C7F12011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.h */,
+				85A5C7F22011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m */,
+				85A5C7F42011F6A4003547E1 /* Demo_28_PresentationLayer.h */,
+				85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -315,6 +342,15 @@
 				855E420E200EED4D00A31C57 /* QFLayerLabel.m */,
 			);
 			path = QFLayerLabel;
+			sourceTree = "<group>";
+		};
+		85A5C7E9201190CE003547E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A5C7EC201190D9003547E1 /* GLKit.framework */,
+				85A5C7EA201190CF003547E1 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,9 +505,11 @@
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
+				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
 				854DBAB42010991C0007E535 /* Demo_24_CAEmitterLayer.m in Sources */,
+				85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
@@ -479,10 +517,12 @@
 				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
 				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
+				85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */,
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
 				8546DD76200D993500DA9BA3 /* Demo_14_CATransform3D.m in Sources */,
+				85A5C7F020119EAC003547E1 /* Demo_26_IntentAnimation.m in Sources */,
 				8546DD8F200DAA4300DA9BA3 /* Demo_18_Cube.m in Sources */,
 				857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */,
 				8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */,
@@ -657,6 +697,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = "CoreAnimation系列/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.CoreAnimation--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -671,6 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = "CoreAnimation系列/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.CoreAnimation--";
 				PRODUCT_NAME = "$(TARGET_NAME)";

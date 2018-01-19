@@ -28,9 +28,13 @@
 #import "Demo_19_CAShapeLayer.h"
 #import "Demo_20_CATextLayer.h"
 #import "Demo_21_CATransformLayer.h"
-#import "Demo_22_CAGradientLayer.h"
-#import "Demo_23_CAReplicatorLayer.h"
-#import "Demo_24_CAEmitterLayer.h"
+#import "Demo_22_CAGradientLayer.h"//平滑过渡颜色
+#import "Demo_23_CAReplicatorLayer.h"//复制多个图形
+#import "Demo_24_CAEmitterLayer.h"//粒子效果
+#import "Demo_25_CAEAGLLayer.h"//使用OpenGL+GLKit高效绘图
+#import "Demo_26_IntentAnimation.h"//隐式动画
+#import "Demo_27_IntentAnimation_Principle.h"//隐式动画实现原理+自定义Layer行为
+#import "Demo_28_PresentationLayer.h"//用presentationLayer图层来判断当前图层位置
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -67,7 +71,12 @@
                       [Demo_22_CAGradientLayer new],
                       [Demo_23_CAReplicatorLayer new],
                       [Demo_24_CAEmitterLayer new],
+                      [Demo_25_CAEAGLLayer new],
+                      [Demo_26_IntentAnimation new],
+                      [Demo_27_IntentAnimation_Principle new],
+                      [Demo_28_PresentationLayer new],
                       nil];
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -83,5 +92,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.navigationController pushViewController:self.dataArray[indexPath.row] animated:YES];
 }
+
 
 @end

@@ -52,6 +52,12 @@
 		8560DCD220158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCD120158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m */; };
 		8560DCD52015954C000CEBC9 /* Demo_33_Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */; };
 		8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */; };
+		8560DD1F2015C009000CEBC9 /* Demo_34_RenderInContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD1E2015C009000CEBC9 /* Demo_34_RenderInContext.m */; };
+		8560DD212015C026000CEBC9 /* Demo_34_RenderInContext.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD202015C026000CEBC9 /* Demo_34_RenderInContext.xib */; };
+		8560DD242015C68C000CEBC9 /* Demo_35_CancleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD232015C68C000CEBC9 /* Demo_35_CancleAnimation.m */; };
+		8560DD262015C776000CEBC9 /* Demo_35_CancleAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD252015C776000CEBC9 /* Demo_35_CancleAnimation.xib */; };
+		8560DD2A2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */; };
+		8560DD2B2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */; };
 		857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */; };
 		857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */; };
 		857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */; };
@@ -164,6 +170,15 @@
 		8560DCD32015954C000CEBC9 /* Demo_33_Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_33_Transition.h; sourceTree = "<group>"; };
 		8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_33_Transition.m; sourceTree = "<group>"; };
 		8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_33_Transition.xib; sourceTree = "<group>"; };
+		8560DD1D2015C009000CEBC9 /* Demo_34_RenderInContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_34_RenderInContext.h; sourceTree = "<group>"; };
+		8560DD1E2015C009000CEBC9 /* Demo_34_RenderInContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_34_RenderInContext.m; sourceTree = "<group>"; };
+		8560DD202015C026000CEBC9 /* Demo_34_RenderInContext.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_34_RenderInContext.xib; sourceTree = "<group>"; };
+		8560DD222015C68C000CEBC9 /* Demo_35_CancleAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_35_CancleAnimation.h; sourceTree = "<group>"; };
+		8560DD232015C68C000CEBC9 /* Demo_35_CancleAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_35_CancleAnimation.m; sourceTree = "<group>"; };
+		8560DD252015C776000CEBC9 /* Demo_35_CancleAnimation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_35_CancleAnimation.xib; sourceTree = "<group>"; };
+		8560DD272015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_36_DurationAndRepeatCount.h; sourceTree = "<group>"; };
+		8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_36_DurationAndRepeatCount.m; sourceTree = "<group>"; };
+		8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_36_DurationAndRepeatCount.xib; sourceTree = "<group>"; };
 		857117DC20108768003C5D6F /* Demo_21_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_21_CATransformLayer.h; sourceTree = "<group>"; };
 		857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_21_CATransformLayer.m; sourceTree = "<group>"; };
 		857117E520108A40003C5D6F /* Demo_22_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_22_CAGradientLayer.h; sourceTree = "<group>"; };
@@ -359,6 +374,15 @@
 				8560DCD32015954C000CEBC9 /* Demo_33_Transition.h */,
 				8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */,
 				8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */,
+				8560DD1D2015C009000CEBC9 /* Demo_34_RenderInContext.h */,
+				8560DD1E2015C009000CEBC9 /* Demo_34_RenderInContext.m */,
+				8560DD202015C026000CEBC9 /* Demo_34_RenderInContext.xib */,
+				8560DD222015C68C000CEBC9 /* Demo_35_CancleAnimation.h */,
+				8560DD232015C68C000CEBC9 /* Demo_35_CancleAnimation.m */,
+				8560DD252015C776000CEBC9 /* Demo_35_CancleAnimation.xib */,
+				8560DD272015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.h */,
+				8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */,
+				8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -489,7 +513,9 @@
 			files = (
 				85D59E89200CA90D007B8121 /* Demo_10_Mask.xib in Resources */,
 				8546DD8B200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.xib in Resources */,
+				8560DD212015C026000CEBC9 /* Demo_34_RenderInContext.xib in Resources */,
 				851A7B7B200C43F90028770E /* Demo_04_ContentsCenter.xib in Resources */,
+				8560DD262015C776000CEBC9 /* Demo_35_CancleAnimation.xib in Resources */,
 				8546DD81200DA4E300DA9BA3 /* Demo_16_Mutable_Rotation.xib in Resources */,
 				8546DD7C200D9F0700DA9BA3 /* Demo_15_SublayerTransform.xib in Resources */,
 				8526B202200C396A00F280A7 /* LaunchScreen.storyboard in Resources */,
@@ -499,6 +525,7 @@
 				8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */,
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
 				85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */,
+				8560DD2B2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib in Resources */,
 				851A7B8B200C461E0028770E /* Demo_07_ZPosition.xib in Resources */,
 				8546DD90200DAA4300DA9BA3 /* Demo_18_Cube.xib in Resources */,
 				8546DD77200D993500DA9BA3 /* Demo_14_CATransform3D.xib in Resources */,
@@ -533,6 +560,8 @@
 				8526B1FA200C396A00F280A7 /* ViewController.m in Sources */,
 				8560DCD220158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m in Sources */,
 				857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */,
+				8560DD242015C68C000CEBC9 /* Demo_35_CancleAnimation.m in Sources */,
+				8560DD2A2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m in Sources */,
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
@@ -549,6 +578,7 @@
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
 				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,
+				8560DD1F2015C009000CEBC9 /* Demo_34_RenderInContext.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */,
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,

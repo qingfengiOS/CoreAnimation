@@ -39,7 +39,10 @@
 #import "Demo_30_CAKeyfraneAnimationWithUIBezierPath.h"//关键帧动画结合贝塞尔路径
 #import "Demo_31_VirtualProperty.h"//虚拟属性
 #import "Demo_32_CAAnimationGroup.h"//动画组:关键帧路径和基础动画的组合
-#import "Demo_33_Transition.h"//过渡
+#import "Demo_33_Transition.h"//过渡动画+UIKit动画
+#import "Demo_34_RenderInContext.h"//用renderInContext:创建自定义过渡效果 
+#import "Demo_35_CancleAnimation.h"//在动画过程中取消动画
+#import "Demo_36_DurationAndRepeatCount.h"//动画的持续和重复
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -85,6 +88,9 @@
                       [Demo_31_VirtualProperty new],
                       [Demo_32_CAAnimationGroup new],
                       [Demo_33_Transition new],
+                      [Demo_34_RenderInContext new],
+                      [Demo_35_CancleAnimation new],
+                      [Demo_36_DurationAndRepeatCount new],
                       nil];
     
 }

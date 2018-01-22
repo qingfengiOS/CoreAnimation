@@ -32,16 +32,29 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="8an-ca-Ftz"/>
                     </constraints>
-                    <state key="normal" title="switchImage"/>
+                    <state key="normal" title="useTransition"/>
                     <connections>
-                        <action selector="switchImage:" destination="-1" eventType="touchUpInside" id="hDC-QL-WrF"/>
+                        <action selector="useTransition:" destination="-1" eventType="touchUpInside" id="ScI-cn-fa9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xW8-cQ-LYe">
+                    <rect key="frame" x="86" y="443" width="202" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="vPv-Jl-oBU"/>
+                    </constraints>
+                    <state key="normal" title="useUIKit"/>
+                    <connections>
+                        <action selector="useUIKit:" destination="-1" eventType="touchUpInside" id="NTA-yu-790"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WBQ-ws-aJM" secondAttribute="trailing" constant="83" id="9Go-kb-Qp8"/>
+                <constraint firstItem="xW8-cQ-LYe" firstAttribute="centerX" secondItem="3c0-aB-w4p" secondAttribute="centerX" id="GBx-I0-dWm"/>
+                <constraint firstItem="xW8-cQ-LYe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="86" id="Ohf-JQ-DIR"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3c0-aB-w4p" secondAttribute="trailing" constant="68" id="W3R-UN-mOw"/>
+                <constraint firstItem="xW8-cQ-LYe" firstAttribute="top" secondItem="WBQ-ws-aJM" secondAttribute="bottom" constant="32" id="bxY-hg-WIn"/>
                 <constraint firstItem="3c0-aB-w4p" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="188" id="fq4-6Z-Jjs"/>
                 <constraint firstItem="3c0-aB-w4p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="gET-Mn-5Qa"/>
                 <constraint firstItem="WBQ-ws-aJM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="90" id="gLj-zT-XNc"/>

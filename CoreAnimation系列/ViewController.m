@@ -35,6 +35,10 @@
 #import "Demo_26_IntentAnimation.h"//隐式动画
 #import "Demo_27_IntentAnimation_Principle.h"//隐式动画实现原理+自定义Layer行为
 #import "Demo_28_PresentationLayer.h"//用presentationLayer图层来判断当前图层位置
+#import "Demo_29_CAKeyframeAnimation.h"//关键帧动画
+#import "Demo_30_CAKeyfraneAnimationWithUIBezierPath.h"//关键帧动画结合贝塞尔路径
+#import "Demo_31_VirtualProperty.h"//虚拟属性
+#import "Demo_32_CAAnimationGroup.h"//动画组:关键帧路径和基础动画的组合
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -75,6 +79,10 @@
                       [Demo_26_IntentAnimation new],
                       [Demo_27_IntentAnimation_Principle new],
                       [Demo_28_PresentationLayer new],
+                      [Demo_29_CAKeyframeAnimation new],
+                      [Demo_30_CAKeyfraneAnimationWithUIBezierPath new],
+                      [Demo_31_VirtualProperty new],
+                      [Demo_32_CAAnimationGroup new],
                       nil];
     
 }

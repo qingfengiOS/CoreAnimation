@@ -50,6 +50,8 @@
 		8560DCCC20157F07000CEBC9 /* Demo_30_CAKeyfraneAnimationWithUIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCCB20157F07000CEBC9 /* Demo_30_CAKeyfraneAnimationWithUIBezierPath.m */; };
 		8560DCCF20158707000CEBC9 /* Demo_31_VirtualProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCCE20158707000CEBC9 /* Demo_31_VirtualProperty.m */; };
 		8560DCD220158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCD120158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m */; };
+		8560DCD52015954C000CEBC9 /* Demo_33_Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */; };
+		8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */; };
 		857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */; };
 		857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */; };
 		857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */; };
@@ -159,6 +161,9 @@
 		8560DCCE20158707000CEBC9 /* Demo_31_VirtualProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_31_VirtualProperty.m; sourceTree = "<group>"; };
 		8560DCD020158CC3000CEBC9 /* Demo_32_CAAnimationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_32_CAAnimationGroup.h; sourceTree = "<group>"; };
 		8560DCD120158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_32_CAAnimationGroup.m; sourceTree = "<group>"; };
+		8560DCD32015954C000CEBC9 /* Demo_33_Transition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_33_Transition.h; sourceTree = "<group>"; };
+		8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_33_Transition.m; sourceTree = "<group>"; };
+		8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_33_Transition.xib; sourceTree = "<group>"; };
 		857117DC20108768003C5D6F /* Demo_21_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_21_CATransformLayer.h; sourceTree = "<group>"; };
 		857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_21_CATransformLayer.m; sourceTree = "<group>"; };
 		857117E520108A40003C5D6F /* Demo_22_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_22_CAGradientLayer.h; sourceTree = "<group>"; };
@@ -351,6 +356,9 @@
 				8560DCCE20158707000CEBC9 /* Demo_31_VirtualProperty.m */,
 				8560DCD020158CC3000CEBC9 /* Demo_32_CAAnimationGroup.h */,
 				8560DCD120158CC3000CEBC9 /* Demo_32_CAAnimationGroup.m */,
+				8560DCD32015954C000CEBC9 /* Demo_33_Transition.h */,
+				8560DCD42015954C000CEBC9 /* Demo_33_Transition.m */,
+				8560DCD6201595B8000CEBC9 /* Demo_33_Transition.xib */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -488,6 +496,7 @@
 				851A7B83200C45870028770E /* Demo_06_AnchorPoint.xib in Resources */,
 				8526B1FF200C396A00F280A7 /* Assets.xcassets in Resources */,
 				8526B1FD200C396A00F280A7 /* Main.storyboard in Resources */,
+				8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */,
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
 				85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */,
 				851A7B8B200C461E0028770E /* Demo_07_ZPosition.xib in Resources */,
@@ -536,6 +545,7 @@
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				8560DCCF20158707000CEBC9 /* Demo_31_VirtualProperty.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
+				8560DCD52015954C000CEBC9 /* Demo_33_Transition.m in Sources */,
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
 				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,

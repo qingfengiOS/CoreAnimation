@@ -39,6 +39,7 @@
 #import "Demo_30_CAKeyfraneAnimationWithUIBezierPath.h"//关键帧动画结合贝塞尔路径
 #import "Demo_31_VirtualProperty.h"//虚拟属性
 #import "Demo_32_CAAnimationGroup.h"//动画组:关键帧路径和基础动画的组合
+#import "Demo_33_Transition.h"//过渡
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -83,6 +84,7 @@
                       [Demo_30_CAKeyfraneAnimationWithUIBezierPath new],
                       [Demo_31_VirtualProperty new],
                       [Demo_32_CAAnimationGroup new],
+                      [Demo_33_Transition new],
                       nil];
     
 }

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_11_ShouldRasterize : UIViewController
+@interface Demo_11_ShouldRasterize : BaseController
 
 @end

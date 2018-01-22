@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_10_Mask : UIViewController
+@interface Demo_10_Mask : BaseController
 
 @end

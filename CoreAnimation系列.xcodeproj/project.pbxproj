@@ -17,7 +17,6 @@
 		851A7B8E200C46650028770E /* Demo_08_ContainsPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A7B8D200C46650028770E /* Demo_08_ContainsPoint.m */; };
 		8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B1F6200C396A00F280A7 /* AppDelegate.m */; };
 		8526B1FA200C396A00F280A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B1F9200C396A00F280A7 /* ViewController.m */; };
-		8526B1FD200C396A00F280A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8526B1FB200C396A00F280A7 /* Main.storyboard */; };
 		8526B1FF200C396A00F280A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8526B1FE200C396A00F280A7 /* Assets.xcassets */; };
 		8526B202200C396A00F280A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8526B200200C396A00F280A7 /* LaunchScreen.storyboard */; };
 		8526B205200C396A00F280A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B204200C396A00F280A7 /* main.m */; };
@@ -58,6 +57,7 @@
 		8560DD262015C776000CEBC9 /* Demo_35_CancleAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD252015C776000CEBC9 /* Demo_35_CancleAnimation.xib */; };
 		8560DD2A2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */; };
 		8560DD2B2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */; };
+		8560DD2E2015D1C4000CEBC9 /* Demo_37_Autoreverses.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD2D2015D1C4000CEBC9 /* Demo_37_Autoreverses.m */; };
 		857117DE20108768003C5D6F /* Demo_21_CATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */; };
 		857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E620108A40003C5D6F /* Demo_22_CAGradientLayer.m */; };
 		857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 857117E920108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m */; };
@@ -110,7 +110,6 @@
 		8526B1F6200C396A00F280A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8526B1F8200C396A00F280A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8526B1F9200C396A00F280A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8526B1FC200C396A00F280A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8526B1FE200C396A00F280A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8526B201200C396A00F280A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8526B203200C396A00F280A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -179,6 +178,8 @@
 		8560DD272015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_36_DurationAndRepeatCount.h; sourceTree = "<group>"; };
 		8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_36_DurationAndRepeatCount.m; sourceTree = "<group>"; };
 		8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_36_DurationAndRepeatCount.xib; sourceTree = "<group>"; };
+		8560DD2C2015D1C4000CEBC9 /* Demo_37_Autoreverses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_37_Autoreverses.h; sourceTree = "<group>"; };
+		8560DD2D2015D1C4000CEBC9 /* Demo_37_Autoreverses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_37_Autoreverses.m; sourceTree = "<group>"; };
 		857117DC20108768003C5D6F /* Demo_21_CATransformLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_21_CATransformLayer.h; sourceTree = "<group>"; };
 		857117DD20108768003C5D6F /* Demo_21_CATransformLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_21_CATransformLayer.m; sourceTree = "<group>"; };
 		857117E520108A40003C5D6F /* Demo_22_CAGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_22_CAGradientLayer.h; sourceTree = "<group>"; };
@@ -262,7 +263,6 @@
 				8526B1F6200C396A00F280A7 /* AppDelegate.m */,
 				8526B1F8200C396A00F280A7 /* ViewController.h */,
 				8526B1F9200C396A00F280A7 /* ViewController.m */,
-				8526B1FB200C396A00F280A7 /* Main.storyboard */,
 				8526B1FE200C396A00F280A7 /* Assets.xcassets */,
 				8526B200200C396A00F280A7 /* LaunchScreen.storyboard */,
 				8526B203200C396A00F280A7 /* Info.plist */,
@@ -383,6 +383,8 @@
 				8560DD272015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.h */,
 				8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */,
 				8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */,
+				8560DD2C2015D1C4000CEBC9 /* Demo_37_Autoreverses.h */,
+				8560DD2D2015D1C4000CEBC9 /* Demo_37_Autoreverses.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -521,7 +523,6 @@
 				8526B202200C396A00F280A7 /* LaunchScreen.storyboard in Resources */,
 				851A7B83200C45870028770E /* Demo_06_AnchorPoint.xib in Resources */,
 				8526B1FF200C396A00F280A7 /* Assets.xcassets in Resources */,
-				8526B1FD200C396A00F280A7 /* Main.storyboard in Resources */,
 				8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */,
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
 				85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */,
@@ -567,6 +568,7 @@
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
+				8560DD2E2015D1C4000CEBC9 /* Demo_37_Autoreverses.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
 				854DBAB42010991C0007E535 /* Demo_24_CAEmitterLayer.m in Sources */,
 				85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */,
@@ -631,14 +633,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8526B1FB200C396A00F280A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8526B1FC200C396A00F280A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8526B200200C396A00F280A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

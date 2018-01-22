@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_14_CATransform3D : UIViewController
+@interface Demo_14_CATransform3D : BaseController
 
 @end

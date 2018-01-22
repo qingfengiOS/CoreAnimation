@@ -7,7 +7,8 @@
 //
 //扁平化图层
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_16_Mutable_Rotation : UIViewController
+@interface Demo_16_Mutable_Rotation : BaseController
 
 @end

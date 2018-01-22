@@ -43,16 +43,26 @@
 #import "Demo_34_RenderInContext.h"//用renderInContext:创建自定义过渡效果 
 #import "Demo_35_CancleAnimation.h"//在动画过程中取消动画
 #import "Demo_36_DurationAndRepeatCount.h"//动画的持续和重复
+#import "Demo_37_Autoreverses.h"//摆动门的动画
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"CoreAnimation系列";
+    
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
     
     self.dataArray = [NSMutableArray arrayWithObjects:
                       [Demo_01_Layer new],
@@ -91,6 +101,7 @@
                       [Demo_34_RenderInContext new],
                       [Demo_35_CancleAnimation new],
                       [Demo_36_DurationAndRepeatCount new],
+                      [Demo_37_Autoreverses new],
                       nil];
     
 }
@@ -100,7 +111,10 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
     cell.textLabel.text = NSStringFromClass([self.dataArray[indexPath.row] class]);
     return cell;
 }

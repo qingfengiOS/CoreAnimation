@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_09_ShadowPath : UIViewController
+@interface Demo_09_ShadowPath : BaseController
 
 @end

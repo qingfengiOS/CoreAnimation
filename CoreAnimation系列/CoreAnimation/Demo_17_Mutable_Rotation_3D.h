@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_17_Mutable_Rotation_3D : UIViewController
+@interface Demo_17_Mutable_Rotation_3D : BaseController
 
 @end

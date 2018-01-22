@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_12_AffineTransform : UIViewController
+@interface Demo_12_AffineTransform : BaseController
 
 @end

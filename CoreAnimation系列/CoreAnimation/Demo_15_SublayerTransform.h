@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface Demo_15_SublayerTransform : UIViewController
+@interface Demo_15_SublayerTransform : BaseController
 
 @end

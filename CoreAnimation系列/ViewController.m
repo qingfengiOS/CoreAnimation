@@ -46,7 +46,9 @@
 #import "Demo_37_Autoreverses.h"//摆动门的动画
 #import "Demo_38_TimeOffsetAndSpeed.h"//相对时间
 #import "Demo_39_TimeOff.h"//手动动画
-#import "Demo_40_TimingFunction.h"//缓冲
+#import "Demo_40_TimingFunction.h"//缓冲函数
+#import "Demo_41_TimingFunctions.h"//缓冲和关键帧动画
+#import "Demo_42_CAMediaTimingFunction.h" // 使用UIBezierPath绘制CAMediaTimingFunction
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -108,6 +110,8 @@
                       [Demo_38_TimeOffsetAndSpeed new],
                       [Demo_39_TimeOff new],
                       [Demo_40_TimingFunction new],
+                      [Demo_41_TimingFunctions new],
+                      [Demo_42_CAMediaTimingFunction new],
                       nil];
     
 }

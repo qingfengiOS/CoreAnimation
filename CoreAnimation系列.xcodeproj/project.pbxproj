@@ -71,6 +71,8 @@
 		85A5C7F020119EAC003547E1 /* Demo_26_IntentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7EF20119EAC003547E1 /* Demo_26_IntentAnimation.m */; };
 		85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7F22011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m */; };
 		85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */; };
+		85B4939F20170DAA00B75E6E /* Demo_41_TimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */; };
+		85B493A22017108300B75E6E /* Demo_42_CAMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
@@ -207,6 +209,10 @@
 		85A5C7F22011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_27_IntentAnimation_Principle.m; sourceTree = "<group>"; };
 		85A5C7F42011F6A4003547E1 /* Demo_28_PresentationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_28_PresentationLayer.h; sourceTree = "<group>"; };
 		85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_28_PresentationLayer.m; sourceTree = "<group>"; };
+		85B4939D20170DAA00B75E6E /* Demo_41_TimingFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_41_TimingFunctions.h; sourceTree = "<group>"; };
+		85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_41_TimingFunctions.m; sourceTree = "<group>"; };
+		85B493A02017108300B75E6E /* Demo_42_CAMediaTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_42_CAMediaTimingFunction.h; sourceTree = "<group>"; };
+		85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_42_CAMediaTimingFunction.m; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -403,6 +409,10 @@
 				856B9DFB2016D6FE00CFADCC /* Demo_39_TimeOff.m */,
 				856B9DFD2016DC0100CFADCC /* Demo_40_TimingFunction.h */,
 				856B9DFE2016DC0100CFADCC /* Demo_40_TimingFunction.m */,
+				85B4939D20170DAA00B75E6E /* Demo_41_TimingFunctions.h */,
+				85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */,
+				85B493A02017108300B75E6E /* Demo_42_CAMediaTimingFunction.h */,
+				85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -606,10 +616,12 @@
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
+				85B493A22017108300B75E6E /* Demo_42_CAMediaTimingFunction.m in Sources */,
 				856B9DFF2016DC0100CFADCC /* Demo_40_TimingFunction.m in Sources */,
 				8546DD76200D993500DA9BA3 /* Demo_14_CATransform3D.m in Sources */,
 				85A5C7F020119EAC003547E1 /* Demo_26_IntentAnimation.m in Sources */,
 				8546DD8F200DAA4300DA9BA3 /* Demo_18_Cube.m in Sources */,
+				85B4939F20170DAA00B75E6E /* Demo_41_TimingFunctions.m in Sources */,
 				857117EA20108FCA003C5D6F /* Demo_23_CAReplicatorLayer.m in Sources */,
 				8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */,
 				856B9DF52016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.m in Sources */,

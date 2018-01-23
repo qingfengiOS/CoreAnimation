@@ -44,7 +44,4 @@
     [doorLayer addAnimation:animation forKey:nil];
 }
 
-- (void)dealloc {
-    
-}
 @end

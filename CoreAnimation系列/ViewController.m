@@ -44,6 +44,9 @@
 #import "Demo_35_CancleAnimation.h"//在动画过程中取消动画
 #import "Demo_36_DurationAndRepeatCount.h"//动画的持续和重复
 #import "Demo_37_Autoreverses.h"//摆动门的动画
+#import "Demo_38_TimeOffsetAndSpeed.h"//相对时间
+#import "Demo_39_TimeOff.h"//手动动画
+#import "Demo_40_TimingFunction.h"//缓冲
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -102,6 +105,9 @@
                       [Demo_35_CancleAnimation new],
                       [Demo_36_DurationAndRepeatCount new],
                       [Demo_37_Autoreverses new],
+                      [Demo_38_TimeOffsetAndSpeed new],
+                      [Demo_39_TimeOff new],
+                      [Demo_40_TimingFunction new],
                       nil];
     
 }

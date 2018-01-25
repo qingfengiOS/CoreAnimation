@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850763692019C5910079ED3D /* Demo_43_ComplexAnimationLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */; };
 		851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A7B78200C43F90028770E /* Demo_04_ContentsCenter.m */; };
 		851A7B7B200C43F90028770E /* Demo_04_ContentsCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851A7B79200C43F90028770E /* Demo_04_ContentsCenter.xib */; };
 		851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A7B7D200C45510028770E /* Demo_05_DrawLayer.m */; };
@@ -98,6 +99,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850763672019C5910079ED3D /* Demo_43_ComplexAnimationLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_43_ComplexAnimationLine.h; sourceTree = "<group>"; };
+		850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_43_ComplexAnimationLine.m; sourceTree = "<group>"; };
 		851A7B77200C43F90028770E /* Demo_04_ContentsCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_04_ContentsCenter.h; sourceTree = "<group>"; };
 		851A7B78200C43F90028770E /* Demo_04_ContentsCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_04_ContentsCenter.m; sourceTree = "<group>"; };
 		851A7B79200C43F90028770E /* Demo_04_ContentsCenter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_04_ContentsCenter.xib; sourceTree = "<group>"; };
@@ -413,6 +416,8 @@
 				85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */,
 				85B493A02017108300B75E6E /* Demo_42_CAMediaTimingFunction.h */,
 				85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */,
+				850763672019C5910079ED3D /* Demo_43_ComplexAnimationLine.h */,
+				850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
+				850763692019C5910079ED3D /* Demo_43_ComplexAnimationLine.m in Sources */,
 				8560DCCF20158707000CEBC9 /* Demo_31_VirtualProperty.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
 				8560DCD52015954C000CEBC9 /* Demo_33_Transition.m in Sources */,

@@ -49,6 +49,7 @@
 #import "Demo_40_TimingFunction.h"//缓冲函数
 #import "Demo_41_TimingFunctions.h"//缓冲和关键帧动画
 #import "Demo_42_CAMediaTimingFunction.h" // 使用UIBezierPath绘制CAMediaTimingFunction
+#import "Demo_43_ComplexAnimationLine.h"//使用关键帧实现反弹球的动画
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -112,6 +113,7 @@
                       [Demo_40_TimingFunction new],
                       [Demo_41_TimingFunctions new],
                       [Demo_42_CAMediaTimingFunction new],
+                      [Demo_43_ComplexAnimationLine new],
                       nil];
     
 }

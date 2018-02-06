@@ -74,11 +74,13 @@
 		85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7F52011F6A4003547E1 /* Demo_28_PresentationLayer.m */; };
 		85B4939F20170DAA00B75E6E /* Demo_41_TimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */; };
 		85B493A22017108300B75E6E /* Demo_42_CAMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */; };
+		85CA845E2029905300888E1F /* Demo_45_NSTimerEaseOutBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CA845A2029905200888E1F /* Demo_45_NSTimerEaseOutBall.m */; };
 		85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */; };
 		85D59E84200CA695007B8121 /* Demo_09_ShadowPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */; };
 		85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E86200CA90D007B8121 /* Demo_10_Mask.m */; };
 		85D59E89200CA90D007B8121 /* Demo_10_Mask.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */; };
 		85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */; };
+		85DCEF1C2029917A000BFF87 /* Demo_44_LineBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DCEF1B2029917A000BFF87 /* Demo_44_LineBuffer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +218,8 @@
 		85B4939E20170DAA00B75E6E /* Demo_41_TimingFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_41_TimingFunctions.m; sourceTree = "<group>"; };
 		85B493A02017108300B75E6E /* Demo_42_CAMediaTimingFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_42_CAMediaTimingFunction.h; sourceTree = "<group>"; };
 		85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_42_CAMediaTimingFunction.m; sourceTree = "<group>"; };
+		85CA845A2029905200888E1F /* Demo_45_NSTimerEaseOutBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_45_NSTimerEaseOutBall.m; sourceTree = "<group>"; };
+		85CA845B2029905200888E1F /* Demo_45_NSTimerEaseOutBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_45_NSTimerEaseOutBall.h; sourceTree = "<group>"; };
 		85D59E80200CA695007B8121 /* Demo_09_ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_09_ShadowPath.h; sourceTree = "<group>"; };
 		85D59E81200CA695007B8121 /* Demo_09_ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_09_ShadowPath.m; sourceTree = "<group>"; };
 		85D59E82200CA695007B8121 /* Demo_09_ShadowPath.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_09_ShadowPath.xib; sourceTree = "<group>"; };
@@ -224,6 +228,8 @@
 		85D59E87200CA90D007B8121 /* Demo_10_Mask.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_10_Mask.xib; sourceTree = "<group>"; };
 		85D59E8A200CABBE007B8121 /* Demo_11_ShouldRasterize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_11_ShouldRasterize.h; sourceTree = "<group>"; };
 		85D59E8B200CABBE007B8121 /* Demo_11_ShouldRasterize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_11_ShouldRasterize.m; sourceTree = "<group>"; };
+		85DCEF1A2029917A000BFF87 /* Demo_44_LineBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_44_LineBuffer.h; sourceTree = "<group>"; };
+		85DCEF1B2029917A000BFF87 /* Demo_44_LineBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_44_LineBuffer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +424,10 @@
 				85B493A12017108300B75E6E /* Demo_42_CAMediaTimingFunction.m */,
 				850763672019C5910079ED3D /* Demo_43_ComplexAnimationLine.h */,
 				850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */,
+				85DCEF1A2029917A000BFF87 /* Demo_44_LineBuffer.h */,
+				85DCEF1B2029917A000BFF87 /* Demo_44_LineBuffer.m */,
+				85CA845B2029905200888E1F /* Demo_45_NSTimerEaseOutBall.h */,
+				85CA845A2029905200888E1F /* Demo_45_NSTimerEaseOutBall.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -590,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CA845E2029905300888E1F /* Demo_45_NSTimerEaseOutBall.m in Sources */,
 				851A7B8A200C461E0028770E /* Demo_07_ZPosition.m in Sources */,
 				8560DCC920157D81000CEBC9 /* Demo_29_CAKeyframeAnimation.m in Sources */,
 				8526B1FA200C396A00F280A7 /* ViewController.m in Sources */,
@@ -599,6 +610,7 @@
 				8560DD242015C68C000CEBC9 /* Demo_35_CancleAnimation.m in Sources */,
 				8560DD2A2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m in Sources */,
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
+				85DCEF1C2029917A000BFF87 /* Demo_44_LineBuffer.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,

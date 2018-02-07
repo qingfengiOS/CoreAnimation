@@ -52,6 +52,7 @@
 #import "Demo_43_ComplexAnimationLine.h"//使用关键帧实现反弹球的动画
 #import "Demo_44_LineBuffer.h"// 线性缓冲
 #import "Demo_45_NSTimerEaseOutBall.h"//NSTimer实现动感弹球效果
+#import "Demo_46_CADisplayLink.h"//CADisplayLink实现动感弹球效果
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -117,6 +118,7 @@
                       [Demo_43_ComplexAnimationLine new],
                       [Demo_44_LineBuffer new],
                       [Demo_45_NSTimerEaseOutBall new],
+                      [Demo_46_CADisplayLink new],
                       nil];
     
 }

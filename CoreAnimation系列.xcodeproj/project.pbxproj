@@ -28,6 +28,7 @@
 		8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B235200C416C00F280A7 /* Demo_02_Contents.m */; };
 		8526B23D200C420D00F280A7 /* Demo_03_ContentsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */; };
 		8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */; };
+		8528A79C202ADFA0005B103E /* Demo_46_CADisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8528A79B202ADFA0005B103E /* Demo_46_CADisplayLink.m */; };
 		8546DD69200D923B00DA9BA3 /* Demo_12_AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD67200D923B00DA9BA3 /* Demo_12_AffineTransform.m */; };
 		8546DD6A200D923B00DA9BA3 /* Demo_12_AffineTransform.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8546DD68200D923B00DA9BA3 /* Demo_12_AffineTransform.xib */; };
 		8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD6C200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m */; };
@@ -140,6 +141,8 @@
 		8526B23A200C420D00F280A7 /* Demo_03_ContentsRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_03_ContentsRect.h; sourceTree = "<group>"; };
 		8526B23B200C420D00F280A7 /* Demo_03_ContentsRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_03_ContentsRect.m; sourceTree = "<group>"; };
 		8526B23C200C420D00F280A7 /* Demo_03_ContentsRect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_03_ContentsRect.xib; sourceTree = "<group>"; };
+		8528A79A202ADFA0005B103E /* Demo_46_CADisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_46_CADisplayLink.h; sourceTree = "<group>"; };
+		8528A79B202ADFA0005B103E /* Demo_46_CADisplayLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_46_CADisplayLink.m; sourceTree = "<group>"; };
 		8546DD66200D923B00DA9BA3 /* Demo_12_AffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_12_AffineTransform.h; sourceTree = "<group>"; };
 		8546DD67200D923B00DA9BA3 /* Demo_12_AffineTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_12_AffineTransform.m; sourceTree = "<group>"; };
 		8546DD68200D923B00DA9BA3 /* Demo_12_AffineTransform.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_12_AffineTransform.xib; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 				85DCEF1B2029917A000BFF87 /* Demo_44_LineBuffer.m */,
 				85CA845B2029905200888E1F /* Demo_45_NSTimerEaseOutBall.h */,
 				85CA845A2029905200888E1F /* Demo_45_NSTimerEaseOutBall.m */,
+				8528A79A202ADFA0005B103E /* Demo_46_CADisplayLink.h */,
+				8528A79B202ADFA0005B103E /* Demo_46_CADisplayLink.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -614,6 +619,7 @@
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,
+				8528A79C202ADFA0005B103E /* Demo_46_CADisplayLink.m in Sources */,
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8560DD2E2015D1C4000CEBC9 /* Demo_37_Autoreverses.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,

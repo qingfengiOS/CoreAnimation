@@ -56,6 +56,7 @@
 #import "Demo_47_ViewController.h"//instruments绘图性能分析
 #import "Demo_48_Draw_CoreGraphics.h"//使用Core Graphics绘图
 #import "Demo_49_Draw_CAShapeLayer.h"//使用Core Animation绘图
+#import "Demo_50_BlackBorad.h"//"黑板"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -125,6 +126,7 @@
                       @"Demo_47_ViewController",
                       @"Demo_48_Draw_CoreGraphics",
                       @"Demo_49_Draw_CAShapeLayer",
+                      @"Demo_50_BlackBorad",
                       nil];
     
 }

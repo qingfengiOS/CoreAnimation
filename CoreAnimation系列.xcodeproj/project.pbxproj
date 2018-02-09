@@ -73,6 +73,8 @@
 		8594A5E2202D465F00873D43 /* Demo_48_Draw_CoreGraphics_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594A5E1202D465F00873D43 /* Demo_48_Draw_CoreGraphics_View.m */; };
 		8594A5E5202D4B9300873D43 /* Demo_49_Draw_CAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594A5E4202D4B9300873D43 /* Demo_49_Draw_CAShapeLayer.m */; };
 		8594A5E8202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594A5E7202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.m */; };
+		8594A5EB202D7E4100873D43 /* Demo_50_BlackBorad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594A5EA202D7E4100873D43 /* Demo_50_BlackBorad.m */; };
+		8594A5EE202D7E5800873D43 /* Demo_50_BlackBorad_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 8594A5ED202D7E5800873D43 /* Demo_50_BlackBorad_View.m */; };
 		85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5C7E72011907B003547E1 /* Demo_25_CAEAGLLayer.m */; };
 		85A5C7EB201190CF003547E1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5C7EA201190CF003547E1 /* OpenGLES.framework */; };
 		85A5C7ED201190D9003547E1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5C7EC201190D9003547E1 /* GLKit.framework */; };
@@ -224,6 +226,10 @@
 		8594A5E4202D4B9300873D43 /* Demo_49_Draw_CAShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_49_Draw_CAShapeLayer.m; sourceTree = "<group>"; };
 		8594A5E6202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_49_Draw_CAShapeLayer_View.h; sourceTree = "<group>"; };
 		8594A5E7202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_49_Draw_CAShapeLayer_View.m; sourceTree = "<group>"; };
+		8594A5E9202D7E4100873D43 /* Demo_50_BlackBorad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_50_BlackBorad.h; sourceTree = "<group>"; };
+		8594A5EA202D7E4100873D43 /* Demo_50_BlackBorad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_50_BlackBorad.m; sourceTree = "<group>"; };
+		8594A5EC202D7E5800873D43 /* Demo_50_BlackBorad_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_50_BlackBorad_View.h; sourceTree = "<group>"; };
+		8594A5ED202D7E5800873D43 /* Demo_50_BlackBorad_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_50_BlackBorad_View.m; sourceTree = "<group>"; };
 		85A5C7E62011907B003547E1 /* Demo_25_CAEAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_25_CAEAGLLayer.h; sourceTree = "<group>"; };
 		85A5C7E72011907B003547E1 /* Demo_25_CAEAGLLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_25_CAEAGLLayer.m; sourceTree = "<group>"; };
 		85A5C7EA201190CF003547E1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -461,6 +467,10 @@
 				8594A5E4202D4B9300873D43 /* Demo_49_Draw_CAShapeLayer.m */,
 				8594A5E6202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.h */,
 				8594A5E7202D4BC100873D43 /* Demo_49_Draw_CAShapeLayer_View.m */,
+				8594A5E9202D7E4100873D43 /* Demo_50_BlackBorad.h */,
+				8594A5EA202D7E4100873D43 /* Demo_50_BlackBorad.m */,
+				8594A5EC202D7E5800873D43 /* Demo_50_BlackBorad_View.h */,
+				8594A5ED202D7E5800873D43 /* Demo_50_BlackBorad_View.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -658,8 +668,10 @@
 				85A5C7F32011C7DA003547E1 /* Demo_27_IntentAnimation_Principle.m in Sources */,
 				8526B1F7200C396A00F280A7 /* AppDelegate.m in Sources */,
 				8594A5E5202D4B9300873D43 /* Demo_49_Draw_CAShapeLayer.m in Sources */,
+				8594A5EB202D7E4100873D43 /* Demo_50_BlackBorad.m in Sources */,
 				8546DD6E200D95EC00DA9BA3 /* Demo_13_Mix_AffineTransform.m in Sources */,
 				850763692019C5910079ED3D /* Demo_43_ComplexAnimationLine.m in Sources */,
+				8594A5EE202D7E5800873D43 /* Demo_50_BlackBorad_View.m in Sources */,
 				8560DCCF20158707000CEBC9 /* Demo_31_VirtualProperty.m in Sources */,
 				8546DD7B200D9F0700DA9BA3 /* Demo_15_SublayerTransform.m in Sources */,
 				8560DCD52015954C000CEBC9 /* Demo_33_Transition.m in Sources */,

@@ -53,6 +53,9 @@
 #import "Demo_44_LineBuffer.h"// 线性缓冲
 #import "Demo_45_NSTimerEaseOutBall.h"//NSTimer实现动感弹球效果
 #import "Demo_46_CADisplayLink.h"//CADisplayLink实现动感弹球效果
+#import "Demo_47_ViewController.h"//instruments绘图性能分析
+#import "Demo_48_Draw_CoreGraphics.h"//使用Core Graphics绘图
+#import "Demo_49_Draw_CAShapeLayer.h"//使用Core Animation绘图
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -73,52 +76,55 @@
     [self.view addSubview:self.tableView];
     
     self.dataArray = [NSMutableArray arrayWithObjects:
-                      [Demo_01_Layer new],
-                      [Demo_02_Contents new],
-                      [Demo_03_ContentsRect new],
-                      [Demo_04_ContentsCenter new],
-                      [Demo_05_DrawLayer new],
-                      [Demo_06_AnchorPoint new],
-                      [Demo_07_ZPosition new],
-                      [Demo_08_ContainsPoint new],
-                      [Demo_09_ShadowPath new],
-                      [Demo_10_Mask new],
-                      [Demo_11_ShouldRasterize new],
-                      [Demo_12_AffineTransform new],
-                      [Demo_13_Mix_AffineTransform new],
-                      [Demo_14_CATransform3D new],
-                      [Demo_15_SublayerTransform new],
-                      [Demo_16_Mutable_Rotation new],
-                      [Demo_17_Mutable_Rotation_3D new],
-                      [Demo_18_Cube new],
-                      [Demo_19_CAShapeLayer new],
-                      [Demo_20_CATextLayer new],
-                      [Demo_21_CATransformLayer new],
-                      [Demo_22_CAGradientLayer new],
-                      [Demo_23_CAReplicatorLayer new],
-                      [Demo_24_CAEmitterLayer new],
-                      [Demo_25_CAEAGLLayer new],
-                      [Demo_26_IntentAnimation new],
-                      [Demo_27_IntentAnimation_Principle new],
-                      [Demo_28_PresentationLayer new],
-                      [Demo_29_CAKeyframeAnimation new],
-                      [Demo_30_CAKeyfraneAnimationWithUIBezierPath new],
-                      [Demo_31_VirtualProperty new],
-                      [Demo_32_CAAnimationGroup new],
-                      [Demo_33_Transition new],
-                      [Demo_34_RenderInContext new],
-                      [Demo_35_CancleAnimation new],
-                      [Demo_36_DurationAndRepeatCount new],
-                      [Demo_37_Autoreverses new],
-                      [Demo_38_TimeOffsetAndSpeed new],
-                      [Demo_39_TimeOff new],
-                      [Demo_40_TimingFunction new],
-                      [Demo_41_TimingFunctions new],
-                      [Demo_42_CAMediaTimingFunction new],
-                      [Demo_43_ComplexAnimationLine new],
-                      [Demo_44_LineBuffer new],
-                      [Demo_45_NSTimerEaseOutBall new],
-                      [Demo_46_CADisplayLink new],
+                      @"Demo_01_Layer",
+                      @"Demo_02_Contents",
+                      @"Demo_03_ContentsRect",
+                      @"Demo_04_ContentsCenter",
+                      @"Demo_05_DrawLayer",
+                      @"Demo_06_AnchorPoint",
+                      @"Demo_07_ZPosition",
+                      @"Demo_08_ContainsPoint",
+                      @"Demo_09_ShadowPath",
+                      @"Demo_10_Mask",
+                      @"Demo_11_ShouldRasterize",
+                      @"Demo_12_AffineTransform",
+                      @"Demo_13_Mix_AffineTransform",
+                      @"Demo_14_CATransform3D",
+                      @"Demo_15_SublayerTransform",
+                      @"Demo_16_Mutable_Rotation",
+                      @"Demo_17_Mutable_Rotation_3D",
+                      @"Demo_18_Cube",
+                      @"Demo_19_CAShapeLayer",
+                      @"Demo_20_CATextLayer",
+                      @"Demo_21_CATransformLayer",
+                      @"Demo_22_CAGradientLayer",
+                      @"Demo_23_CAReplicatorLayer",
+                      @"Demo_24_CAEmitterLayer",
+                      @"Demo_25_CAEAGLLayer",
+                      @"Demo_26_IntentAnimation",
+                      @"Demo_27_IntentAnimation_Principle",
+                      @"Demo_28_PresentationLayer",
+                      @"Demo_29_CAKeyframeAnimation",
+                      @"Demo_30_CAKeyfraneAnimationWithUIBezierPath",
+                      @"Demo_31_VirtualProperty",
+                      @"Demo_32_CAAnimationGroup",
+                      @"Demo_33_Transition",
+                      @"Demo_34_RenderInContext",
+                      @"Demo_35_CancleAnimation",
+                      @"Demo_36_DurationAndRepeatCount",
+                      @"Demo_37_Autoreverses",
+                      @"Demo_38_TimeOffsetAndSpeed",
+                      @"Demo_39_TimeOff",
+                      @"Demo_40_TimingFunction",
+                      @"Demo_41_TimingFunctions",
+                      @"Demo_42_CAMediaTimingFunction",
+                      @"Demo_43_ComplexAnimationLine",
+                      @"Demo_44_LineBuffer",
+                      @"Demo_45_NSTimerEaseOutBall",
+                      @"Demo_46_CADisplayLink",
+                      @"Demo_47_ViewController",
+                      @"Demo_48_Draw_CoreGraphics",
+                      @"Demo_49_Draw_CAShapeLayer",
                       nil];
     
 }
@@ -132,12 +138,13 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = NSStringFromClass([self.dataArray[indexPath.row] class]);
+    cell.textLabel.text = self.dataArray[indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self.navigationController pushViewController:self.dataArray[indexPath.row] animated:YES];
+    id viewController = [[NSClassFromString(self.dataArray[indexPath.row]) alloc]init];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 

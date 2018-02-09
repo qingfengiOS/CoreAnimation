@@ -66,6 +66,8 @@
 
 - (void)step:(CADisplayLink *)timer {
     
+    timer.frameInterval = 1;//这里可以修改，默认为1，数值越大看起来越卡
+    
     //calculate time delta
     CFTimeInterval thisStep = CACurrentMediaTime();
     CFTimeInterval stepDuration = thisStep - self.lastStep;

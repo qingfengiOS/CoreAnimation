@@ -131,7 +131,7 @@
                       @"Demo_49_Draw_CAShapeLayer",
                       @"Demo_50_BlackBorad",
                       @"Demo_51_imageIO",
-                      @"Demo_52_CATiledLayer",
+//                      @"Demo_52_CATiledLayer",
                       nil];
     
 }

@@ -95,6 +95,7 @@
     return CGRectMake(point.x - BRUSH_SIZE/2, point.y - BRUSH_SIZE/2, BRUSH_SIZE, BRUSH_SIZE);
 }
 
+
 - (void)drawRect:(CGRect)rect {
     //redraw strokes
     for (NSValue *value in self.strokes) {

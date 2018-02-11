@@ -62,6 +62,12 @@
 		8560DD2A2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD282015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.m */; };
 		8560DD2B2015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */; };
 		8560DD2E2015D1C4000CEBC9 /* Demo_37_Autoreverses.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DD2D2015D1C4000CEBC9 /* Demo_37_Autoreverses.m */; };
+		8563EBB0202FDF300081E918 /* Demo_51_imageIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8563EBAF202FDF300081E918 /* Demo_51_imageIO.m */; };
+		8563EBC0203017950081E918 /* vacation_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8563EBBC203017950081E918 /* vacation_1.jpg */; };
+		8563EBC1203017950081E918 /* vacation_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8563EBBD203017950081E918 /* vacation_2.jpg */; };
+		8563EBC2203017950081E918 /* vacation_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8563EBBE203017950081E918 /* vacation_3.jpg */; };
+		8563EBC3203017950081E918 /* vacation_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8563EBBF203017950081E918 /* vacation_4.jpg */; };
+		8563EBC6203032540081E918 /* Demo_52_CATiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8563EBC5203032540081E918 /* Demo_52_CATiledLayer.m */; };
 		856B9DF52016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B9DF32016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.m */; };
 		856B9DF62016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 856B9DF42016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.xib */; };
 		856B9DFC2016D6FE00CFADCC /* Demo_39_TimeOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B9DFB2016D6FE00CFADCC /* Demo_39_TimeOff.m */; };
@@ -205,6 +211,14 @@
 		8560DD292015CBE8000CEBC9 /* Demo_36_DurationAndRepeatCount.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_36_DurationAndRepeatCount.xib; sourceTree = "<group>"; };
 		8560DD2C2015D1C4000CEBC9 /* Demo_37_Autoreverses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_37_Autoreverses.h; sourceTree = "<group>"; };
 		8560DD2D2015D1C4000CEBC9 /* Demo_37_Autoreverses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_37_Autoreverses.m; sourceTree = "<group>"; };
+		8563EBAE202FDF300081E918 /* Demo_51_imageIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_51_imageIO.h; sourceTree = "<group>"; };
+		8563EBAF202FDF300081E918 /* Demo_51_imageIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_51_imageIO.m; sourceTree = "<group>"; };
+		8563EBBC203017950081E918 /* vacation_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacation_1.jpg; sourceTree = "<group>"; };
+		8563EBBD203017950081E918 /* vacation_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacation_2.jpg; sourceTree = "<group>"; };
+		8563EBBE203017950081E918 /* vacation_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacation_3.jpg; sourceTree = "<group>"; };
+		8563EBBF203017950081E918 /* vacation_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vacation_4.jpg; sourceTree = "<group>"; };
+		8563EBC4203032540081E918 /* Demo_52_CATiledLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_52_CATiledLayer.h; sourceTree = "<group>"; };
+		8563EBC5203032540081E918 /* Demo_52_CATiledLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_52_CATiledLayer.m; sourceTree = "<group>"; };
 		856B9DF22016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_38_TimeOffsetAndSpeed.h; sourceTree = "<group>"; };
 		856B9DF32016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_38_TimeOffsetAndSpeed.m; sourceTree = "<group>"; };
 		856B9DF42016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_38_TimeOffsetAndSpeed.xib; sourceTree = "<group>"; };
@@ -309,6 +323,7 @@
 		8526B1F4200C396A00F280A7 /* CoreAnimation系列 */ = {
 			isa = PBXGroup;
 			children = (
+				8563EBBB203017950081E918 /* Vacation Photos */,
 				855E420C200EED3800A31C57 /* QFLayerLabel */,
 				8526B227200C39E200F280A7 /* CoreAnimation */,
 				8526B1F5200C396A00F280A7 /* AppDelegate.h */,
@@ -471,6 +486,10 @@
 				8594A5EA202D7E4100873D43 /* Demo_50_BlackBorad.m */,
 				8594A5EC202D7E5800873D43 /* Demo_50_BlackBorad_View.h */,
 				8594A5ED202D7E5800873D43 /* Demo_50_BlackBorad_View.m */,
+				8563EBAE202FDF300081E918 /* Demo_51_imageIO.h */,
+				8563EBAF202FDF300081E918 /* Demo_51_imageIO.m */,
+				8563EBC4203032540081E918 /* Demo_52_CATiledLayer.h */,
+				8563EBC5203032540081E918 /* Demo_52_CATiledLayer.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -482,6 +501,17 @@
 				855E420E200EED4D00A31C57 /* QFLayerLabel.m */,
 			);
 			path = QFLayerLabel;
+			sourceTree = "<group>";
+		};
+		8563EBBB203017950081E918 /* Vacation Photos */ = {
+			isa = PBXGroup;
+			children = (
+				8563EBBC203017950081E918 /* vacation_1.jpg */,
+				8563EBBD203017950081E918 /* vacation_2.jpg */,
+				8563EBBE203017950081E918 /* vacation_3.jpg */,
+				8563EBBF203017950081E918 /* vacation_4.jpg */,
+			);
+			path = "Vacation Photos";
 			sourceTree = "<group>";
 		};
 		85A5C7E9201190CE003547E1 /* Frameworks */ = {
@@ -602,7 +632,10 @@
 				85D59E89200CA90D007B8121 /* Demo_10_Mask.xib in Resources */,
 				8546DD8B200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.xib in Resources */,
 				8560DD212015C026000CEBC9 /* Demo_34_RenderInContext.xib in Resources */,
+				8563EBC3203017950081E918 /* vacation_4.jpg in Resources */,
+				8563EBC2203017950081E918 /* vacation_3.jpg in Resources */,
 				851A7B7B200C43F90028770E /* Demo_04_ContentsCenter.xib in Resources */,
+				8563EBC1203017950081E918 /* vacation_2.jpg in Resources */,
 				8560DD262015C776000CEBC9 /* Demo_35_CancleAnimation.xib in Resources */,
 				8546DD81200DA4E300DA9BA3 /* Demo_16_Mutable_Rotation.xib in Resources */,
 				8546DD7C200D9F0700DA9BA3 /* Demo_15_SublayerTransform.xib in Resources */,
@@ -610,6 +643,7 @@
 				851A7B83200C45870028770E /* Demo_06_AnchorPoint.xib in Resources */,
 				8526B1FF200C396A00F280A7 /* Assets.xcassets in Resources */,
 				8560DCD7201595B8000CEBC9 /* Demo_33_Transition.xib in Resources */,
+				8563EBC0203017950081E918 /* vacation_1.jpg in Resources */,
 				852F6287202C36BA00093362 /* Demo_47_ViewController.xib in Resources */,
 				856B9DF62016CEAE00CFADCC /* Demo_38_TimeOffsetAndSpeed.xib in Resources */,
 				8526B23E200C420D00F280A7 /* Demo_03_ContentsRect.xib in Resources */,
@@ -657,6 +691,7 @@
 				851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */,
 				85DCEF1C2029917A000BFF87 /* Demo_44_LineBuffer.m in Sources */,
 				8594A5DF202D436800873D43 /* Demo_48_Draw_CoreGraphics.m in Sources */,
+				8563EBB0202FDF300081E918 /* Demo_51_imageIO.m in Sources */,
 				851A7B82200C45870028770E /* Demo_06_AnchorPoint.m in Sources */,
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,
@@ -685,6 +720,7 @@
 				8546DD8A200DA7D300DA9BA3 /* Demo_17_Mutable_Rotation_3D.m in Sources */,
 				85D59E83200CA695007B8121 /* Demo_09_ShadowPath.m in Sources */,
 				8594A5E2202D465F00873D43 /* Demo_48_Draw_CoreGraphics_View.m in Sources */,
+				8563EBC6203032540081E918 /* Demo_52_CATiledLayer.m in Sources */,
 				8526B236200C416C00F280A7 /* Demo_02_Contents.m in Sources */,
 				85B493A22017108300B75E6E /* Demo_42_CAMediaTimingFunction.m in Sources */,
 				856B9DFF2016DC0100CFADCC /* Demo_40_TimingFunction.m in Sources */,
@@ -779,7 +815,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

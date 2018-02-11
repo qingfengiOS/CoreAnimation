@@ -57,6 +57,9 @@
 #import "Demo_48_Draw_CoreGraphics.h"//使用Core Graphics绘图
 #import "Demo_49_Draw_CAShapeLayer.h"//使用Core Animation绘图
 #import "Demo_50_BlackBorad.h"//"黑板"
+#import "Demo_51_imageIO.h"//图片的IO
+#import "Demo_52_CATiledLayer.h"//CATiledLayer异步加载和显示大型图片
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -127,6 +130,8 @@
                       @"Demo_48_Draw_CoreGraphics",
                       @"Demo_49_Draw_CAShapeLayer",
                       @"Demo_50_BlackBorad",
+                      @"Demo_51_imageIO",
+//                      @"Demo_52_CATiledLayer",
                       nil];
     
 }

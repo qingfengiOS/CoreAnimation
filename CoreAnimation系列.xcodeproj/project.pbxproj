@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		850763692019C5910079ED3D /* Demo_43_ComplexAnimationLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */; };
+		851804A420317689007DCA37 /* Demo_53_NSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 851804A320317689007DCA37 /* Demo_53_NSCache.m */; };
 		851A7B7A200C43F90028770E /* Demo_04_ContentsCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A7B78200C43F90028770E /* Demo_04_ContentsCenter.m */; };
 		851A7B7B200C43F90028770E /* Demo_04_ContentsCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851A7B79200C43F90028770E /* Demo_04_ContentsCenter.xib */; };
 		851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A7B7D200C45510028770E /* Demo_05_DrawLayer.m */; };
@@ -118,6 +119,8 @@
 /* Begin PBXFileReference section */
 		850763672019C5910079ED3D /* Demo_43_ComplexAnimationLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_43_ComplexAnimationLine.h; sourceTree = "<group>"; };
 		850763682019C5910079ED3D /* Demo_43_ComplexAnimationLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_43_ComplexAnimationLine.m; sourceTree = "<group>"; };
+		851804A220317689007DCA37 /* Demo_53_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_53_NSCache.h; sourceTree = "<group>"; };
+		851804A320317689007DCA37 /* Demo_53_NSCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_53_NSCache.m; sourceTree = "<group>"; };
 		851A7B77200C43F90028770E /* Demo_04_ContentsCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_04_ContentsCenter.h; sourceTree = "<group>"; };
 		851A7B78200C43F90028770E /* Demo_04_ContentsCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_04_ContentsCenter.m; sourceTree = "<group>"; };
 		851A7B79200C43F90028770E /* Demo_04_ContentsCenter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo_04_ContentsCenter.xib; sourceTree = "<group>"; };
@@ -490,6 +493,8 @@
 				8563EBAF202FDF300081E918 /* Demo_51_imageIO.m */,
 				8563EBC4203032540081E918 /* Demo_52_CATiledLayer.h */,
 				8563EBC5203032540081E918 /* Demo_52_CATiledLayer.m */,
+				851804A220317689007DCA37 /* Demo_53_NSCache.h */,
+				851804A320317689007DCA37 /* Demo_53_NSCache.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -713,6 +718,7 @@
 				85D59E88200CA90D007B8121 /* Demo_10_Mask.m in Sources */,
 				855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */,
 				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,
+				851804A420317689007DCA37 /* Demo_53_NSCache.m in Sources */,
 				8560DD1F2015C009000CEBC9 /* Demo_34_RenderInContext.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */,

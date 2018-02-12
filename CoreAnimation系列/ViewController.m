@@ -59,12 +59,13 @@
 #import "Demo_50_BlackBorad.h"//"黑板"
 #import "Demo_51_imageIO.h"//图片的IO
 #import "Demo_52_CATiledLayer.h"//CATiledLayer异步加载和显示大型图片
+#import "Demo_53_NSCache.h"//NSCache缓存
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
-
+@property (nonatomic, strong) Demo_52_CATiledLayer *VC;
 @end
 
 @implementation ViewController
@@ -126,13 +127,16 @@
                       @"Demo_44_LineBuffer",
                       @"Demo_45_NSTimerEaseOutBall",
                       @"Demo_46_CADisplayLink",
-                      @"Demo_47_ViewController",
+                      @"Demo_47_ViewController(shouldRasterize)",
                       @"Demo_48_Draw_CoreGraphics",
                       @"Demo_49_Draw_CAShapeLayer",
                       @"Demo_50_BlackBorad",
                       @"Demo_51_imageIO",
-//                      @"Demo_52_CATiledLayer",
+                      @"Demo_52_CATiledLayer",
+                      @"Demo_53_NSCache",
                       nil];
+    
+    _VC = [Demo_52_CATiledLayer new];
     
 }
 
@@ -150,7 +154,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    id viewController = [[NSClassFromString(self.dataArray[indexPath.row]) alloc]init];
+    id viewController = nil;
+    if (indexPath.row == 51) {
+        viewController = _VC;
+    } else {
+        viewController = [[NSClassFromString(self.dataArray[indexPath.row]) alloc]init];
+    }
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

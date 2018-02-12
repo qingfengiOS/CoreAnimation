@@ -23,6 +23,12 @@
     [self initDataSource];
     
     [self initAppearance];
+    
+    /*
+     很多人会想当然的认为“ super 和 self 类似，应该是指向父类的指针吧！”。这是很普遍的一个误区。其实 super 是一个 Magic Keyword， 它本质是一个编译器标示符，和 self 是指向的同一个消息接受者！他们两个的不同点在于：super 会告诉编译器，调用 class 这个方法时，要去父类的方法，而不是本类里的。
+     */
+    NSLog(@"super class:%@",NSStringFromClass([super class]));
+    NSLog(@"self class:%@",NSStringFromClass([self class]));
 }
 
 #pragma mark - initDataSource

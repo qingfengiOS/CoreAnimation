@@ -21,7 +21,6 @@
     [super viewDidLoad];
     
     [self initDataSource];
-    
     [self initAppearance];
 }
 

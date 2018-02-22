@@ -127,7 +127,7 @@
                       @"Demo_44_LineBuffer",
                       @"Demo_45_NSTimerEaseOutBall",
                       @"Demo_46_CADisplayLink",
-                      @"Demo_47_ViewController(shouldRasterize)",
+                      @"Demo_47_ViewController",
                       @"Demo_48_Draw_CoreGraphics",
                       @"Demo_49_Draw_CAShapeLayer",
                       @"Demo_50_BlackBorad",
@@ -162,6 +162,5 @@
     }
     [self.navigationController pushViewController:viewController animated:YES];
 }
-
 
 @end

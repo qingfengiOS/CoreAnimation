@@ -50,6 +50,8 @@
 		8546DD96200DDE4000DA9BA3 /* Demo_20_CATextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546DD95200DDE4000DA9BA3 /* Demo_20_CATextLayer.m */; };
 		854DBAB42010991C0007E535 /* Demo_24_CAEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */; };
 		855E420F200EED4D00A31C57 /* QFLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855E420E200EED4D00A31C57 /* QFLayerLabel.m */; };
+		85602D2A203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85602D29203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.m */; };
+		85602D2D203FE27100DE0628 /* Demo_55_ReduceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85602D2C203FE27100DE0628 /* Demo_55_ReduceLayer.m */; };
 		8560DCC920157D81000CEBC9 /* Demo_29_CAKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCC820157D81000CEBC9 /* Demo_29_CAKeyframeAnimation.m */; };
 		8560DCCC20157F07000CEBC9 /* Demo_30_CAKeyfraneAnimationWithUIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCCB20157F07000CEBC9 /* Demo_30_CAKeyfraneAnimationWithUIBezierPath.m */; };
 		8560DCCF20158707000CEBC9 /* Demo_31_VirtualProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560DCCE20158707000CEBC9 /* Demo_31_VirtualProperty.m */; };
@@ -192,6 +194,10 @@
 		854DBAB32010991C0007E535 /* Demo_24_CAEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_24_CAEmitterLayer.m; sourceTree = "<group>"; };
 		855E420D200EED4D00A31C57 /* QFLayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFLayerLabel.h; sourceTree = "<group>"; };
 		855E420E200EED4D00A31C57 /* QFLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFLayerLabel.m; sourceTree = "<group>"; };
+		85602D28203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_54_DrawRectByCAShapeLayer.h; sourceTree = "<group>"; };
+		85602D29203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_54_DrawRectByCAShapeLayer.m; sourceTree = "<group>"; };
+		85602D2B203FE27100DE0628 /* Demo_55_ReduceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_55_ReduceLayer.h; sourceTree = "<group>"; };
+		85602D2C203FE27100DE0628 /* Demo_55_ReduceLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_55_ReduceLayer.m; sourceTree = "<group>"; };
 		8560DCC720157D81000CEBC9 /* Demo_29_CAKeyframeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_29_CAKeyframeAnimation.h; sourceTree = "<group>"; };
 		8560DCC820157D81000CEBC9 /* Demo_29_CAKeyframeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_29_CAKeyframeAnimation.m; sourceTree = "<group>"; };
 		8560DCCA20157F07000CEBC9 /* Demo_30_CAKeyfraneAnimationWithUIBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_30_CAKeyfraneAnimationWithUIBezierPath.h; sourceTree = "<group>"; };
@@ -495,6 +501,10 @@
 				8563EBC5203032540081E918 /* Demo_52_CATiledLayer.m */,
 				851804A220317689007DCA37 /* Demo_53_NSCache.h */,
 				851804A320317689007DCA37 /* Demo_53_NSCache.m */,
+				85602D28203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.h */,
+				85602D29203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.m */,
+				85602D2B203FE27100DE0628 /* Demo_55_ReduceLayer.h */,
+				85602D2C203FE27100DE0628 /* Demo_55_ReduceLayer.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -701,6 +711,7 @@
 				8526B230200C409000F280A7 /* BaseController.m in Sources */,
 				85A5C7F62011F6A4003547E1 /* Demo_28_PresentationLayer.m in Sources */,
 				8528A79C202ADFA0005B103E /* Demo_46_CADisplayLink.m in Sources */,
+				85602D2A203FC64700DE0628 /* Demo_54_DrawRectByCAShapeLayer.m in Sources */,
 				85D59E8C200CABBE007B8121 /* Demo_11_ShouldRasterize.m in Sources */,
 				8560DD2E2015D1C4000CEBC9 /* Demo_37_Autoreverses.m in Sources */,
 				8526B205200C396A00F280A7 /* main.m in Sources */,
@@ -720,6 +731,7 @@
 				857117E720108A40003C5D6F /* Demo_22_CAGradientLayer.m in Sources */,
 				851804A420317689007DCA37 /* Demo_53_NSCache.m in Sources */,
 				8560DD1F2015C009000CEBC9 /* Demo_34_RenderInContext.m in Sources */,
+				85602D2D203FE27100DE0628 /* Demo_55_ReduceLayer.m in Sources */,
 				851A7B7E200C45510028770E /* Demo_05_DrawLayer.m in Sources */,
 				85A5C7E82011907B003547E1 /* Demo_25_CAEAGLLayer.m in Sources */,
 				852F6285202C33C000093362 /* Demo_47_ViewController.m in Sources */,

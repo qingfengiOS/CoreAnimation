@@ -53,13 +53,15 @@
 #import "Demo_44_LineBuffer.h"// 线性缓冲
 #import "Demo_45_NSTimerEaseOutBall.h"//NSTimer实现动感弹球效果
 #import "Demo_46_CADisplayLink.h"//CADisplayLink实现动感弹球效果
-#import "Demo_47_ViewController.h"//instruments绘图性能分析
+#import "Demo_47_ViewController.h"//instruments绘图性能分析，优化界面卡顿问题
 #import "Demo_48_Draw_CoreGraphics.h"//使用Core Graphics绘图
 #import "Demo_49_Draw_CAShapeLayer.h"//使用Core Animation绘图
 #import "Demo_50_BlackBorad.h"//"黑板"
 #import "Demo_51_imageIO.h"//图片的IO
 #import "Demo_52_CATiledLayer.h"//CATiledLayer异步加载和显示大型图片
 #import "Demo_53_NSCache.h"//NSCache缓存
+#import "Demo_54_DrawRectByCAShapeLayer.h"//使用贝塞尔路径绘制圆角
+#import "Demo_55_ReduceLayer.h"//减少图层数量
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -134,6 +136,8 @@
                       @"Demo_51_imageIO",
                       @"Demo_52_CATiledLayer",
                       @"Demo_53_NSCache",
+                      @"Demo_54_DrawRectByCAShapeLayer",
+                      @"Demo_55_ReduceLayer",
                       nil];
     
     _VC = [Demo_52_CATiledLayer new];

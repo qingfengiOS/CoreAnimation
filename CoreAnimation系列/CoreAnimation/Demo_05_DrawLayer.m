@@ -8,7 +8,9 @@
 
 #import "Demo_05_DrawLayer.h"
 
-@interface Demo_05_DrawLayer ()<CALayerDelegate>
+@interface Demo_05_DrawLayer ()<CALayerDelegate>{
+    CALayer *blueLayer;
+}
 
 @end
 
@@ -17,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CALayer *blueLayer = [CALayer layer];
+    blueLayer = [CALayer layer];
     blueLayer.frame = CGRectMake(50, 100, 100, 100);
     blueLayer.backgroundColor = [UIColor blueColor].CGColor;
     blueLayer.delegate = self;
@@ -26,6 +28,11 @@
     [self.view.layer addSublayer:blueLayer];
     
     [blueLayer display];
+}
+
+- (void)dealloc {
+    NSLog(@"%@ dealloc resumed", NSStringFromClass([self class]));
+    blueLayer.delegate = nil;//这里代理需要手动释放
 }
 
 - (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx {
